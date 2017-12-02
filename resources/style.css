@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: seashell;
+  font-size: 22px;
+  font-family: helvetica;
+}
+
+header {
+display: flex;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  text-align: center;
+  align-items: center;
+  z-index: 1;
+    background-color: black;
+}
+
+a {
+color: seashell;
+}
+
+header img {
+  display: block;
+  text-align: center;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+nav {
+  display: block;
+  flex-grow: 1;
+  width: 100%;
+  font-family: helvetica;
+  color: seashell;
+  font-size: 22px;
+  text-align: right;
+}
+
+.menuitem {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+}
+
+/*content*/
+
+h2, h4 {
+  margin: 0 0 0 0;
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mission {
+  display: flex;
+  position: relative;
+  padding-top: 69px;
+  height: 700px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.missionimg {
+  display: flex;
+  background-image: url("./images/img-mission-background.jpg");
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+}
+
+.missionbar {
+  display: block;
+  text-align: center;
+  background-color: black;
+  width: 1200px;
+}
+
+.featured{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  padding-top: 75px;
+}
+
+.ftitem {
+  display: block;
+  padding: 25px;
+  text-align: center;
+}
+
+.ftitem img {
+  width: 300px;
+  height: 200px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 1200px;
+  justify-content: center;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.locationsimg {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("./images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.locale {
+  display: block;
+  width: 300px;
+  background-color: black;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.locationsimg h2 {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.footercontent {
+  display: block;
+  text-align: center;
+}
+
+.copyright {
+  display: block;
+  text-align: left;
+  margin: 20px;
+  font-size: 12px;
+}
